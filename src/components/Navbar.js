@@ -7,7 +7,7 @@ function Navbar() {
 
 
         <div className="nav">
-            <div className="inner">
+            <div className="nav-inner">
 
             <a href="/" className='logo'><img  src={logo} alt="emoji"/></a>
             <span className='heading1'>Weekly Member Performance Rating</span>
