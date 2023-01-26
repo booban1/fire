@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import biceps from './biceps.png';
 import './App.css';
+import Navbar from './components/Navbar';
+import Body from './components/Body';
 
 function App() {
   return (
     <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Weekly Member Perfomance rating
-        </p>
-        <img src={biceps} className="App-logo" alt="logo" />
-        <hr />
-        <form>
-  <label>
-    Name:
-    <input type="text" name="name" />
-  </label>
-  <input type="submit" value="Submit" />
-</form>
+      <Navbar/>
+       <Body/>
     </div>
   );
 }
