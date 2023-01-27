@@ -1,13 +1,11 @@
 import React from 'react'
-import ellipse from '../ellipse.svg';
+import team2 from '../team2.svg';
 
 
 export default function BackgroundElements() {
   return (
-    <div className='ellipse-bg' 
-    style={{ backgroundImage: `url(${ellipse})`}}
-    >my elipse here
-   
+    <div className='team-sect' >
+        <img src={team2}></img>
     </div>
   )
   

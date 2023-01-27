@@ -66,7 +66,7 @@ export default function
                     <input className='submit-btn' type="submit" value="Submit" />
             </form>
        </div>
-        
+        <hr/>
     </div>
   )
 }
